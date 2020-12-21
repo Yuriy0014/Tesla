@@ -110,3 +110,8 @@ button {
 .slider .slick-dots .slick-active button{
     background-color: #fff;
 }
+
+.slider .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}

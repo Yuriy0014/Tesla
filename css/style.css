@@ -20,6 +20,7 @@ body {
 button {
     border: none;
     padding: 0;
+    cursor: pointer;
 }
 
 .header {
@@ -111,7 +112,15 @@ button {
     background-color: #fff;
 }
 
+.slider .slick-dots {
+    margin: -54px auto 0;
+    position: relative;
+    z-index: 6;
+    max-width: 1200px;
+}
+
 .slider .slick-dots li {
     display: inline-block;
     margin: 0 5px;
+
 }

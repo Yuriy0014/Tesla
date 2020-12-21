@@ -18,6 +18,9 @@ body {
 
 .header {
     height: 100vh;
+    position: absolute;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -65,7 +68,7 @@ body {
 }
 
 .header-content__text {
-    width: 284;
+    width: 284px;
     margin-bottom: 25px;
 }
 

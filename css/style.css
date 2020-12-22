@@ -98,6 +98,15 @@ li {
     ;
 }
 
+.menu {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
 .slider-item {
     height: 100vh;
     background-repeat: no-repeat;

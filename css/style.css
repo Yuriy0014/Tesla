@@ -346,6 +346,9 @@ li {
     .statistics {
         margin: 100px 0 50px;
     }
+    .video {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 400px) {

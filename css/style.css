@@ -336,13 +336,24 @@ li {
     left: -5px;
 }
 
-@media (max-width: 1000px) {}
+@media (max-width: 820px) {
+    .statistics-item {
+        padding: 50px;
+    }
+    .statistics-items {
+        flex-wrap: wrap;
+    }
+    .statistics {
+        margin: 100px 0 50px;
+    }
+}
 
 @media (max-width: 400px) {
     .slider-top {
         display: none;
     }
     .header {
+        position: relative;
         background-image: url('../images/Mobile-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -392,10 +403,16 @@ li {
         transform: none;
         margin: 0;
     }
+    .statistics-item {
+        padding: 25px 0;
+    }
 }
 
 @media (max-width: 350px) {
     .header-content {
         margin-left: 5%;
+    }
+    .header-content__title {
+        margin: -40px auto 50%;
     }
 }

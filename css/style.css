@@ -102,8 +102,13 @@ li {
     background-color: #000;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
+    transition: all 0.5s;
+}
+
+.menu.active {
+    left: 0;
 }
 
 .container-menu {
@@ -116,18 +121,17 @@ li {
     background-color: transparent;
     position: absolute;
     top: 31px;
-    right: 0;
+    right: 15px;
     cursor: pointer;
 }
 
-.close-btn::after,
-.close-btn::before {
-    content:"";
+.close-btn::after, .close-btn::before {
+    content: "";
     width: 70px;
     height: 2px;
     background-color: white;
     position: absolute;
-    transform-origin:left;
+    transform-origin: left;
 }
 
 .close-btn::after {
@@ -137,7 +141,7 @@ li {
 .close-btn::before {
     transform: rotate(-45deg);
     bottom: -1px;
-} 
+}
 
 .menu__list {
     height: 100vh;
@@ -161,7 +165,7 @@ li {
     border-bottom: 3px solid #FFFFFF;
     color: #B70021;
     transform: scale(1.2);
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .slider-item {

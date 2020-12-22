@@ -192,7 +192,8 @@ li {
     margin: -54px auto 0;
     position: relative;
     z-index: 6;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
 }
 
 .slider .slick-dots li {
@@ -333,4 +334,51 @@ li {
     content: "|";
     position: absolute;
     left: -5px;
+}
+
+@media (max-width: 1000px) {}
+
+@media (max-width: 400px) {
+    .slider-top {
+        display: none;
+    }
+    .header {
+        background-image: url('../images/Mobile-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header-top {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        order: 1;
+        padding-top: 5px;
+    }
+    .header-content__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;
+        line-height: 70px;
+        text-align: center;
+        color: black;
+        margin: -30px auto 170px 26px;
+    }
+    .header-content__text {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .button {
+        padding: 17px;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 164px;
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

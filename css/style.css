@@ -23,6 +23,10 @@ button {
     cursor: pointer;
 }
 
+li {
+    list-style: none;
+}
+
 .header {
     height: 100vh;
     position: absolute;

@@ -151,24 +151,23 @@ li {
 }
 
 .menu__list a {
-    display: inline-block;
-    font-weight: 700;
     font-size: 48px;
-    line-height: 56px;
-    color: #FFFFFF;
-    padding: 30px 25px 14px 0;
-    border-bottom: 3px solid #B70021;
+    line-height: 1.16;
+    font-weight: bold;
+    padding: 30px 15px 14px 0;
+    display: inline-block;
+    border-bottom: 3px solid #b70021;
     min-width: 368px;
-    transition: all 0.5s;
 }
 
 .menu__list a:hover {
-    border-bottom: 3px solid #FFFFFF;
-    color: #B70021;
+    border-color: #fff;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #b70021;
+    -webkit-transform: scale(1.2);
     transform: scale(1.2);
-    margin-left: 30px;
-    padding-top: 10px;
-    padding-left: 10px; 
+    margin-left: 37px;
 }
 
 .slider-item {

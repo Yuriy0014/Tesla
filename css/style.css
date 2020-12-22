@@ -129,6 +129,14 @@ li {
     padding: 30px 25px 14px 0;
     border-bottom: 3px solid #B70021;
     min-width: 368px;
+    transition: all 0.5s;
+}
+
+.menu__list a:hover {
+    border-bottom: 3px solid #FFFFFF;
+    color: #B70021;
+    transform: scale(1.2);
+    margin-left: 50px;
 }
 
 .slider-item {

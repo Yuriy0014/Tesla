@@ -156,3 +156,14 @@ button {
 .statistics-item__descr {
     color: #B70021;
 }
+
+.statistics-item__num--plus span{
+    display: inline-block;
+    position: relative;
+}
+
+.statistics-item__num--plus span::before{
+    content:"+";
+    position: absolute;
+    top: -69px;
+}

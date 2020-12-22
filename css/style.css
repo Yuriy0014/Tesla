@@ -106,13 +106,36 @@ li {
     width: 100%;
 }
 
+.container-menu {
+    position: relative;
+}
+
 .close-btn {
     width: 50px;
     height: 50px;
     background-color: #fff;
     position: absolute;
+    top: 31px;
     right: 0;
+    cursor: pointer;
 }
+
+.close-btn::after,
+.close-btn::before {
+    content:"";
+    width: 70px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+}
+
+.close-btn::after {
+    transform: rotate(45deg);
+}
+
+.close-btn::before {
+    transform: rotate(-45deg);
+} 
 
 .menu__list {
     height: 100vh;

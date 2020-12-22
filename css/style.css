@@ -346,6 +346,7 @@ li {
         background-image: url('../images/Mobile-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: bottom;
     }
     .header-top {
         flex-wrap: wrap;
@@ -363,7 +364,7 @@ li {
         line-height: 70px;
         text-align: center;
         color: black;
-        margin: -30px auto 185px 26px;
+        margin: -30px auto 65%;
     }
     .header-content__text {
         width: 200px;
@@ -373,7 +374,7 @@ li {
         line-height: 21px;
     }
     .button {
-        padding: 17px;
+        padding: 10px;
         margin: 0 auto;
         text-align: center;
         display: block;
@@ -386,18 +387,15 @@ li {
         line-height: 40px;
         padding: 30px 20px 14px 0;
         min-width: 270px;
-    }.menu__list a:hover {
+    }
+    .menu__list a:hover {
         transform: none;
         margin: 0;
     }
-
 }
 
 @media (max-width: 350px) {
     .header-content {
         margin-left: 5%;
-    }
-    .header-content__title {
-        margin-bottom: 150px;
     }
 }

@@ -161,17 +161,39 @@ li {
     color: #B70021;
 }
 
-.statistics-item__num--plus span{
+.statistics-item__num--plus span {
     display: inline-block;
     position: relative;
 }
 
-.statistics-item__num--plus span::before{
-    content:"+";
+.statistics-item__num--plus span::before {
+    content: "+";
     position: absolute;
     top: -69px;
 }
 
 .video {
     margin-bottom: 100px;
+}
+
+.advantages-inner__row {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: #B70021;
+}
+
+.advantages__text {
+    width: 303px;
+}
+
+.advantages-descr {
+    max-width: 570px;
+    widows: 100%;
 }

@@ -85,7 +85,7 @@ li {
     margin-bottom: 25px;
 }
 
-.header-content__btn {
+.button {
     display: inline-block;
     border: 1px solid #FFF;
     padding: 30px 62px;
@@ -93,7 +93,7 @@ li {
     transition: all 0.5s;
 }
 
-.header-content__btn:hover {
+.button:hover {
     background-color: #770302;
     ;
 }

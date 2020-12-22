@@ -207,6 +207,10 @@ li {
     width: 100%;
 }
 
+.design {
+    margin-bottom: 100px;
+}
+
 .design__images {
     margin-bottom: 100px;
 }
@@ -231,4 +235,31 @@ li {
 .design-row__item-text {
     max-width: 450px;
     padding-top: 25px;
+}
+
+.footer {
+    background-color: #690102;
+    padding: 83px 0 20px;
+}
+
+.footer__btn {
+    text-align: center;
+    margin: 0 auto 23px;
+}
+
+.footer-copy {
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer-copy li {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+.footer-copy li + li::before {
+    content: "|";
+    position: absolute;
+    left: -5px;
 }

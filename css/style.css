@@ -167,6 +167,8 @@ li {
     color: #B70021;
     transform: scale(1.2);
     margin-left: 30px;
+    padding-top: 10px;
+    padding-left: 10px; 
 }
 
 .slider-item {

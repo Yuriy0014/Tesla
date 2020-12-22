@@ -181,12 +181,21 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .advantages__title {
     font-size: 36px;
     line-height: 42px;
     color: #B70021;
+    position: absolute;
+    top: 0;
+}
+
+.advantages__title--bottom {
+    top: auto;
+    right: 0;
+    bottom: 0;
 }
 
 .advantages__text {
@@ -195,5 +204,5 @@ li {
 
 .advantages-descr {
     max-width: 570px;
-    widows: 100%;
+    width: 100%;
 }

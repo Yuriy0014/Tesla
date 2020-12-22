@@ -102,7 +102,7 @@ li {
     background-color: #000;
     position: absolute;
     top: 0;
-    left: -100%;
+    left: -200%;
     width: 100%;
     transition: all 0.5s;
     z-index: 7;
@@ -363,7 +363,7 @@ li {
         line-height: 70px;
         text-align: center;
         color: black;
-        margin: -30px auto 170px 26px;
+        margin: -30px auto 185px 26px;
     }
     .header-content__text {
         width: 200px;
@@ -380,5 +380,24 @@ li {
         width: 164px;
         font-size: 16px;
         line-height: 20px;
+    }
+    .menu__list a {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 30px 20px 14px 0;
+        min-width: 270px;
+    }.menu__list a:hover {
+        transform: none;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .header-content {
+        margin-left: 5%;
+    }
+    .header-content__title {
+        margin-bottom: 150px;
     }
 }

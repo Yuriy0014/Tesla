@@ -104,7 +104,31 @@ li {
     top: 0;
     left: 0;
     width: 100%;
+}
 
+.close-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+}
+
+.menu__list {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu__list a {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding: 30px 25px 14px 0;
+    border-bottom: 3px solid #B70021;
+    min-width: 368px;
 }
 
 .slider-item {
@@ -267,7 +291,7 @@ li {
     position: relative;
 }
 
-.footer-copy li + li::before {
+.footer-copy li+li::before {
     content: "|";
     position: absolute;
     left: -5px;

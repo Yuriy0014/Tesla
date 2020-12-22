@@ -220,6 +220,8 @@ li {
     max-width: 570px;
     width: 100%;
     padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .design-row__item-num {
@@ -228,5 +230,5 @@ li {
 
 .design-row__item-text {
     max-width: 450px;
-
+    padding-top: 25px;
 }

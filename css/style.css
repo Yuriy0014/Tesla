@@ -340,6 +340,27 @@ li {
     .advantages__text {
         padding-left: 20px;
     }
+    .design__images img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1020px) {
+    .design-row {
+        display: block;
+    }
+    .design-row__item {
+        max-width: 100%;
+    }
+    .design-row__item-text {
+        max-width: 100%;
+    }
+    .design__images, .design-row {
+        margin-bottom: 50px;
+    }
+    .design-row__item {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 930px) {
